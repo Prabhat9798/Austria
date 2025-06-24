@@ -90,7 +90,7 @@ const LandingPageAustria = () => {
     <div className="relative">
      {/* Sticky Header with Austria logo and text */}
 <div className="sticky top-0 z-[100] bg-white/80 backdrop-blur-md">
-  <div className="container mx-auto px-20 py-4 h-18 flex items-center justify-between max-w-7xl">
+  <div className="container mx-auto  py-4 h-18 flex items-center justify-between max-w-7xl">
     <div className="cursor-pointer flex items-center gap-2 pl-4"> {/* Added left padding */}
       <img 
         className="h-8" 
