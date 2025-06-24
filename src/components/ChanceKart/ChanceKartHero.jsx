@@ -24,7 +24,7 @@ const ChanceKartHero = () => {
         </div>
 
         {/* Desktop Navigation - Hidden on mobile */}
-        <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 mx-auto">
+        {/* <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 mx-auto">
           <Link
             to="#"
             className="text-black hover:text-orange-500 transition-colors"
@@ -55,7 +55,7 @@ const ChanceKartHero = () => {
           >
             FAQ
           </Link>
-        </nav>
+        </nav> */}
 
         {/* Desktop Auth Buttons - Hidden on mobile */}
         <div className="hidden md:flex items-center space-x-4">

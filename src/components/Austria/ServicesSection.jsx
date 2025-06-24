@@ -29,13 +29,13 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20" style={{ fontFamily: "Gilroy" }}>
+    <section className="py-16 md:py-20" >
       <div className="container mx-auto w-[80%]">
         {/* Heading Row */}
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">
-            <h2 className="text-[#002147] text-4xl font-semibold leading-[150%] text-center">
-              Austria <span className="text-[#0487f3] bg-gradient-to-r from-[#E56D09] via-[#D83E13] to-[#D83E13] bg-clip-text text-transparent">Advantage</span>
+            <h2 className=" text-4xl font-semibold leading-[150%] text-center">
+              Austria <span className="bg-gradient-to-r from-[#E56D09] via-[#D83E13] to-[#D83E13] bg-clip-text text-transparent">Advantage</span>
             </h2>
           </div>
         </div>
@@ -54,7 +54,10 @@ const ServicesSection = () => {
                   alt="Service Icon"
                 />
                 <div>
-                  <h3 className="text-[#002147] text-lg font-normal leading-tight whitespace-pre-line" 
+                  <h3 className=" text-lg font-normal leading-tight whitespace-pre-line" 
+                  style={{
+                    fontFamily:"Gilroy-Medium"
+                  }}
                       dangerouslySetInnerHTML={{ __html: service.title }} />
                 </div>
               </div>
@@ -66,7 +69,10 @@ const ServicesSection = () => {
                   src={service.icon} 
                   alt="Service Icon"
                 />
-                <h3 className="text-[#002147] text-lg font-normal leading-tight whitespace-pre-line"
+                <h3 className=" text-lg font-normal leading-tight whitespace-pre-line"
+                style={{
+                  fontFamily:"Gilroy-Medium"
+                }}
                     dangerouslySetInnerHTML={{ __html: service.title }} />
               </div>
             </div>

@@ -15,6 +15,7 @@ import ServicesSection from "./components/Austria/ServicesSection";
 import TestiCard from "./components/testiCard";
 import StudyAbroadInfo from "./components/Austria/StudyAbroadInfo";
 import Footer from "./components/Austria/Footer";
+import GoogleReviews from "./components/Austria/GoogleReviews";
 // import Footer from "./components/ChanceKart/Footer";
 // import Testimonial from "./components/Testimonial"; // Import the Testimonial component
 
@@ -51,13 +52,15 @@ function App() {
           {/* <Route path="/hero3" element={<HeroSection />} /> */}
           {/* <Route path="/hero2" element={<Hero2 />} /> */}
           {/* <Route path="/virtual" element={<VirtualOffice />} /> */}
-          <Route path="/" element={<LandingPageAustria />} />
+          {/* <Route path="/" element={<LandingPageAustria />} /> */}
           {/* <Route path="/next" element={<ChanceKartNextpage />} /> */}
           {/* <Route path="/sc" element={<SuccessfulClients />} /> */}
         </Routes>
+        <LandingPageAustria/>
         <WhyChooseUs/>
         <ServicesSection/>
-        <Testimonal/>
+        {/* <Testimonal/> */}
+        <GoogleReviews/>
         {/* <StudyAbroadInfo/> */}
         <Footer/>
       </div>

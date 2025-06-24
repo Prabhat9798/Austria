@@ -50,7 +50,7 @@ code {
   src: url("styles/fonts/gilroy/Gilroy-Medium.ttf");
 }
 
-@font-face {
+/* @font-face {
   font-family: "ZonaPro";
   src: url("styles/fonts/ZonaPro.otf");
 }
@@ -58,11 +58,11 @@ code {
 @font-face {
   font-family: "ZonaPro-Bold";
   src: url("styles/fonts/ZonaPro-Bold.otf");
-}
+} */
 
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Normal";
   src: url("styles/fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
   font-weight: 400;
   /* Regular */
@@ -70,7 +70,7 @@ code {
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Semibold";
   src: url("styles/fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
   font-weight: 700;
   /* Bold */
@@ -86,7 +86,7 @@ code {
 }
 
 @font-face {
-  font-family: "Gilroy";
+  font-family: "Gilroy-Bold";
   src: url("styles/fonts/gilroy/Gilroy-Black.ttf") format("truetype");
   font-weight: 900;
   /* Black */
