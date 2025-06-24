@@ -59,7 +59,7 @@ const UniversitiesSection = () => {
       <div className="max-w-5xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-4xl font-bold text-gray-900 mb-8">
+          <h2 className="text-4xl lg:text-4xl font-bold  mb-8">
             Top Universities in <span className="bg-gradient-to-r from-[#E56D09] via-[#D83E13] to-[#D83E13] bg-clip-text text-transparent">Austria</span>
           </h2>
         </div>
@@ -88,7 +88,7 @@ const UniversitiesSection = () => {
 
                     {/* University Info */}
                     <div className="flex-1 min-w-0">
-                      <h3 className="font-bold text-gray-900 text-lg mb-2 group-hover:text-orange-600 transition-colors">
+                      <h3 className=" text-lg mb-2 group-hover:text-orange-700 transition-colors">
                         {university.name}
                       </h3>
                       <p className="text-gray-600 text-sm">{university.location}</p>
