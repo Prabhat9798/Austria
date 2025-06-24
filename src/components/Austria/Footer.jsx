@@ -82,7 +82,7 @@ const Footer = () => {
 
         {/* Lower Footer */}
         <div className="mt-8 text-[#5c7189] text-base">
-          Copyright Ⓒ 2025, Austria.<br /> All rights reserved.
+          Copyright Ⓒ 2025, GermanyWale.<br /> All rights reserved.
         </div>
       </div>
     </section>

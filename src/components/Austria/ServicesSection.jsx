@@ -4,7 +4,7 @@ const ServicesSection = () => {
   const services = [
     {
       icon: "https://publicassets.leverageedu.com/studyAbroad/DreamCourse.png",
-      title: "World-class education\nat <span class='font-semibold'>low tuition fees</span>"
+      title: "World-class education\nat <span class='font-semibold'>low tuition fee</span>"
     },
     {
       icon: "https://publicassets.leverageedu.com/studyAbroad/assistance.png",
