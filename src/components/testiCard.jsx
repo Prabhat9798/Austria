@@ -81,7 +81,7 @@ const TestiCard = ({ item }) => {
         </div>
       </div> */}
 
-      <div className="bg-gradient-to-r from-[#fff4eb] via-[#ffdfd8] to-[#ffdfd8] testiWidth rounded-t-lg">
+      <div className="bg-[#F5F6F8] testiWidth rounded-t-lg">
         <div className="relative p-2 sm:p-4 pb-1 min-h-[20rem] md:min-h-[20rem]  ">
           <div className="min-h-[7rem] mb-auto">
             <div

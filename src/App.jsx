@@ -9,6 +9,13 @@ import VirtualOffice from "./components/VirtualOffice";
 import ChanceKartHero from "./components/ChanceKart/ChanceKartHero";
 import ChanceKartNextpage from "./components/ChanceKart/ChanceKartNextpage";
 import SuccessfulClients from "./components/ChanceKart/SucessfulClients";
+import LandingPageAustria from "./components/Austria/LandingPageAustria";
+import WhyChooseUs from "./components/Austria/WhyChooseUs";
+import ServicesSection from "./components/Austria/ServicesSection";
+import TestiCard from "./components/testiCard";
+import StudyAbroadInfo from "./components/Austria/StudyAbroadInfo";
+import Footer from "./components/Austria/Footer";
+// import Footer from "./components/ChanceKart/Footer";
 // import Testimonial from "./components/Testimonial"; // Import the Testimonial component
 
 // Layout component for the home route
@@ -44,10 +51,15 @@ function App() {
           {/* <Route path="/hero3" element={<HeroSection />} /> */}
           {/* <Route path="/hero2" element={<Hero2 />} /> */}
           {/* <Route path="/virtual" element={<VirtualOffice />} /> */}
-          <Route path="/" element={<ChanceKartHero />} />
-          <Route path="/next" element={<ChanceKartNextpage />} />
-          <Route path="/sc" element={<SuccessfulClients />} />
+          <Route path="/" element={<LandingPageAustria />} />
+          {/* <Route path="/next" element={<ChanceKartNextpage />} /> */}
+          {/* <Route path="/sc" element={<SuccessfulClients />} /> */}
         </Routes>
+        <WhyChooseUs/>
+        <ServicesSection/>
+        <Testimonal/>
+        {/* <StudyAbroadInfo/> */}
+        <Footer/>
       </div>
     </Router>
   );

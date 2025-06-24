@@ -218,13 +218,16 @@ function Testimonal() {
 
   return (
     <>
-      <div className="container" id="review">
+      <div className="container" id="review"
+      style={{
+        fontFamily:"Gilroy"
+      }}>
         <section className="px-4 py-4 sm:px-6 sm:py-8 lg:px-10 lg:py-10 ">
           <div className="md:px-4 pt-4">
             <div className="flex justify-center items-center px-2 sm:px-5">
               <div className="text-center w-[100%]">
                 <h3
-                  className="text-2xl  sm:text-4xl font-bold mt-4 mb-4 overflow-hidden  bg-gradient-to-r from-[#ff9422]  to-[#d63715] bg-clip-text text-transparent"
+                  className="text-2xl  sm:text-4xl font-bold mt-4 mb-10 overflow-hidden  bg-gradient-to-r from-[#ff9422]  to-[#d63715] bg-clip-text text-transparent"
                   style={{ fontFamily: "Gilroy-Medium" }}
                 >
                   What Our Student Speak
