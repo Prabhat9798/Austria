@@ -34,7 +34,7 @@ const testimonials = [
     name: "Himanshi Yadav",
     testimonial:
       "Great experience. Everyone was so helpful and supportive during this whole process.",
-    rating: 5,
+    rating: 4,
     liked: true,
     meta: "1 review · 2 months ago"
   },
@@ -52,7 +52,7 @@ const testimonials = [
     name: "Geshna",
     testimonial:
       "Had an amazing experience with Germanywale! Their attention to detail and quick responses to my queries made the complete process incredibly smooth. Highly recommended.",
-    rating: 5,
+    rating: 4,
     liked: false,
     meta: "3 reviews · 2 months ago"
   }
@@ -118,7 +118,7 @@ const GoogleReviews = () => {
                 </div>
 
                 {/* Testimonial Text */}
-                <p className=" text-sm leading-relaxed mb-4 line-clamp-4">
+                <p className="text-black text-sm leading-relaxed mb-4 line-clamp-4">
                   {testimonial.testimonial}
                 </p>
 

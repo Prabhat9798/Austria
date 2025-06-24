@@ -16,6 +16,7 @@ import TestiCard from "./components/testiCard";
 import StudyAbroadInfo from "./components/Austria/StudyAbroadInfo";
 import Footer from "./components/Austria/Footer";
 import GoogleReviews from "./components/Austria/GoogleReviews";
+import UniversitiesSection from "./components/Austria/UniversitiesSection";
 // import Footer from "./components/ChanceKart/Footer";
 // import Testimonial from "./components/Testimonial"; // Import the Testimonial component
 
@@ -60,6 +61,7 @@ function App() {
         <WhyChooseUs/>
         <ServicesSection/>
         {/* <Testimonal/> */}
+        <UniversitiesSection/>
         <GoogleReviews/>
         {/* <StudyAbroadInfo/> */}
         <Footer/>
