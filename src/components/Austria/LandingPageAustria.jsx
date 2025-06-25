@@ -190,28 +190,28 @@ const LandingPageAustria = () => {
                       </div>
                     ))}
                     
-                    <div className="overflow-visible">
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Mobile Number*
-                      </label>
-                      <div className="relative">
-                        <PhoneInput
-                          country={'in'}
-                          value={formData.phone}
-                          onChange={handlePhoneChange}
-                          inputClass="block w-full p-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-blue-500"
-                          dropdownClass="z-50"
-                          containerClass="overflow-visible"
-                          inputProps={{
-                            required: true,
-                            name: 'phone',
-                            className: 'w-full p-2.5 px-12 border border-gray-300 rounded-lg '
-                          }}
-                          enableSearch
-                          disableCountryCode
-                        />
-                      </div>
-                    </div>
+                  <div className="overflow-visible">
+  <label className="block text-sm font-medium text-gray-700 mb-1">
+    Mobile Number*
+  </label>
+  <div className="relative">
+    <PhoneInput
+      country={'in'}
+      value={formData.phone}
+      onChange={handlePhoneChange}
+      inputClass="block w-full p-2.5 border border-gray-300 rounded-lg"
+      dropdownClass="z-50"
+      containerClass="overflow-visible"
+      inputProps={{
+        required: true,
+        name: 'phone',
+        className: 'w-full p-2.5 pl-12 border border-gray-300 rounded-lg'
+      }}
+      enableSearch
+      
+    />
+  </div>
+</div>
                     
                     <div className="flex items-start">
                       <div className="flex items-center h-5">
@@ -318,28 +318,28 @@ const LandingPageAustria = () => {
                       </div>
                     ))}
                     
-                    <div className="overflow-visible">
-                      <label className="block text-sm font-medium text-gray-700 mb-1">
-                        Mobile Number*
-                      </label>
-                      <div className="relative">
-                        <PhoneInput
-                          country={'in'}
-                          value={formData.phone}
-                          onChange={handlePhoneChange}
-                          inputClass="block w-full p-2.5 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-blue-500"
-                          dropdownClass="z-50"
-                          containerClass="overflow-visible"
-                          inputProps={{
-                            required: true,
-                            name: 'phone',
-                            className: 'w-full p-2.5 px-12 border border-gray-300 rounded-lg '
-                          }}
-                          enableSearch
-                          disableCountryCode
-                        />
-                      </div>
-                    </div>
+                   <div className="overflow-visible">
+  <label className="block text-sm font-medium text-gray-700 mb-1">
+    Mobile Number*
+  </label>
+  <div className="relative">
+    <PhoneInput
+      country={'in'}
+      value={formData.phone}
+      onChange={handlePhoneChange}
+      inputClass="block w-full p-2.5 border border-gray-300 rounded-lg"
+      dropdownClass="z-50"
+      containerClass="overflow-visible"
+      inputProps={{
+        required: true,
+        name: 'phone',
+        className: 'w-full p-2.5 pl-12 border border-gray-300 rounded-lg'
+      }}
+      enableSearch
+      
+    />
+  </div>
+</div>
                     
                     <div className="flex items-start">
                       <div className="flex items-center h-5">
