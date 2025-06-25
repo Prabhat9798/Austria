@@ -103,7 +103,7 @@ const LandingPageAustria = () => {
           <div className="pr-4">
             <a href="tel:+8484977234" rel="noreferrer" className="inline-block">
               <button className="bg-transparent px-4 py-2 rounded-md text-gray-800 hover:text-black-600 transition border-2 border-orange-600 bg-gradient-to-r from-[#E56D09] via-[#D83E13] to-[#D83E13] bg-clip-text text-transparent">
-                Call us 8484977234
+                Call us 8810454697
               </button>
             </a>
           </div>
